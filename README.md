@@ -2,8 +2,13 @@
 To upload files to web anonfiles
 ##
 
-### How to use?
+### How to install?
 ```bash
-python upload.py file
+$ pkg install git
+$ pkg install python
+$ pip install requests
+$ git clone https://github.com/CAIS3R/Anon-uploader
+$ cd Anon-uploader
+$ python upload.py filename
 ```
 ##
