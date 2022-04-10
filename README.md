@@ -7,7 +7,7 @@ To upload files to web anonfiles
 $ pkg install git
 $ pkg install python
 $ pip install requests
-$ git clone https://github.com/CAIS3R/Anon-uploader
+$ git clone https://github.com/KZREVOXTICAL/Anon-uploader
 $ cd Anon-uploader
 $ python upload.py filename
 ```
