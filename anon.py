@@ -8,8 +8,8 @@ def main(arg):
         "file":(arg[1],open(arg[1],"rb").read()
         )
     }).json()
-    if raw["status"] == True: print("[!] Upload Berhasil!");print("[!] Link : {}".format(raw["data"]["file"]["url"]["short"]))
-    else: print("[!] Upload Gagal")
+    if raw["status"] == True: print("[!] Upload Successful!");print("[!] Link : {}".format(raw["data"]["file"]["url"]["short"]))
+    else: print("[!] Upload Failed")
 
 
 if __name__ == '__main__':
@@ -19,6 +19,6 @@ if __name__ == '__main__':
             open(arg[1],"rb").read() #Check File
             main(arg)
         except FileNotFoundError:
-            print("[!] File Tidak Ada")
+            print("[!] File Not Found!")
     else:
-        print("[!] Silahkan masukkan file yang akan di upload!")
+        print("[!] Please enter the file to be uploaded!")
