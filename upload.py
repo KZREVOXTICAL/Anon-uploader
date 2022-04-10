@@ -1,3 +1,7 @@
+# Author : Jhosua Saut Maruli
+# Beginner Programmer
+
+
 import sys
 import json
 import requests
